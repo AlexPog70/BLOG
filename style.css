@@ -1,0 +1,46 @@
+*{ margin: 0; padding: 0;}
+
+body {font-family:"Google Sans",Arial, Helvetica, sans-serif;
+background-color: black;}
+
+video{width: 100%;height:80vh;object-fit: cover;z-index: -1;
+    position: absolute;}
+
+main{padding:50px;margin-top: 30vh; color: aliceblue;}
+
+header div img{width: 200px;height: 200px;
+    border-radius: 100px;}
+
+header{padding: 10px;padding-bottom: 0;background-color: black;
+    border: solid navy 5px;border-style:groove;
+    display: flex;justify-content: space-around;}
+
+header nav ul li a{color:aliceblue;text-decoration: none;font-weight: bolder;}
+
+header nav  ul li a:hover{color: blue;}
+
+header nav ul li{display: inline-block;padding: 10px;margin: 10px;}
+
+header nav ul{margin-right :300px;margin-left: 0;margin-top: 50px;}
+
+header div img {margin-right: 0;margin-left: 150px;}
+
+#video{width: 100%;height: 50vh;margin: 0;padding: 0;object-fit: cover;}
+
+#video video{border-bottom: solid navy 10px;border-style:groove;}
+
+main .propos{ margin-left: 400px;margin-right: 400px;border: 2px blue solid;
+    border-radius: 50px;padding: 10px 50px;font-size: 24px;text-align: center;}
+
+main #presentation{display: flex;justify-content: space-around;
+    gap: 100px;margin-top: 10vh;}
+
+main #presentation .héberg, main #presentation .comRes{
+    border-radius: 50px; text-align: center;
+    border: 3px solid blue;padding: 20px;padding-right: 100px;
+}
+
+footer{background-color: navy;}
+footer p{text-align: center;color: white;}
+
+
